@@ -1,4 +1,4 @@
-Archivo de prueba para la integración contínua.
+Archivo de prueba para la integración continua.
 
 
 Añadida falta ortográfica: cueva
