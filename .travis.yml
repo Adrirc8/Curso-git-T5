@@ -1,0 +1,10 @@
+branches:
+  except:
+    - gh-pages
+language: C
+complier:
+  - gcc
+before_install:
+  - sudo apt-get install aspell-es 
+script: OUTPUT=`cat Prueba.txt | aspell list -d es -p ./.aspell.es.pws`; if [ -n "$OUTPUT" ]; then echo $OUTPUT; exit 1; fi
+[![Build Status](https://travis-ci.org/Adrirc8/Curso-git-T5.svg)](https://travis-ci.org/Adrirc8/Curso-git-T5)
